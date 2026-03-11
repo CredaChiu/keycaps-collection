@@ -47,7 +47,11 @@ export default defineConfig((/* ctx */) => {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: './',
+      publicPath: '/keycaps-collection/', // Ensure this matches the repository name on GitHub
+      viteVuePluginOptions: {},
+      vite: {
+        base: '/keycaps-collection/'
+      },
       // analyze: true,
       // env: {},
       // rawDefine: {}

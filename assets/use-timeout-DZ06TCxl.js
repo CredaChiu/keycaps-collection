@@ -1,0 +1,1 @@
+import{a3 as r,o as i,aY as s,g as a}from"./index-lAo5D-9H.js";function l(){let e=null;const o=a();function t(){e!==null&&(clearTimeout(e),e=null)}return r(t),i(t),{removeTimeout:t,registerTimeout(n,u){t(),s(o)===!1&&(e=setTimeout(()=>{e=null,n()},u))}}}export{l as u};
